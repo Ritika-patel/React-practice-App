@@ -1,5 +1,5 @@
 {
-  "name": "indecision-app",
+  "name": "expensify",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -28,6 +28,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-modal": "^3.14.3",
+    "react-router-dom": "^5.2.0",
     "sass-loader": "^12.1.0",
     "style-loader": "^3.0.0",
     "validator": "^13.6.0",

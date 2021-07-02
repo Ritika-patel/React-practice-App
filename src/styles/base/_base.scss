@@ -1,3 +1,4 @@
+
 html{
     font-size: 62.5%;
 }
@@ -5,13 +6,55 @@ html{
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: $m-size;
-    background: $dark-blue;
 }
 
-button{
-    cursor: pointer;
+
+.is-active{
+    font-weight: bolder;
 }
 
-button:disabled{
-    cursor: default;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width:100%;
+    
+  }
+
+  li {
+    display: inline;
+    float: left;
+    font-size: 25px;
+    
+  }  
+
+a{
+    display: block;
+    padding: 18px;
+    background-color: #dddddd;
+  }
+
+.all{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.abc{
+    text-decoration: solid;
+    color: black;
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: condensed;
+    
 }
