@@ -19,7 +19,7 @@ Trace:
 
 npm manifest: 
   {
-    "name": "expensify",
+    "name": "portfolio-Site",
     "version": "1.0.0",
     "main": "index.js",
     "license": "MIT",
